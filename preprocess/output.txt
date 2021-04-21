@@ -1,0 +1,1747 @@
+################################## 
+ 
+ 
+both initial dataset dimension: 5000 x 10 
+common attributes taken('latitude', 'weapsubtype3', 'related', 'longitude') 
+common attributes taken('latitude', 'weapsubtype3', 'eventid', 'weaptype2') 
+merged dataset dimension: (500, 16) 
+dimension after running correlation: (500, 2) 
+missing value ratio: 0.921 
+common attributes taken('related', 'weaptype2') 
+common attributes taken('weapsubtype3', 'eventid', 'weaptype2') 
+merged dataset dimension: (500, 17) 
+dimension after running correlation: (500, 2) 
+missing value ratio: 0.921 
+common attributes taken('weapsubtype3', 'longitude', 'weaptype2') 
+common attributes taken('related', 'longitude') 
+common attributes taken('latitude',) 
+best output among those runs(according to missing value ratio): 
+parameters: ['latitude', 'weapsubtype3', 'eventid', 'weaptype2'] 
+missing value ratio: 0.921 
+ 
+ 
+ 
+################################## 
+ 
+ 
+both initial dataset dimension: 5000 x 10 
+common attributes taken('longitude', 'eventid') 
+merged dataset dimension: (500, 18) 
+dimension after running correlation: (500, 1) 
+missing value ratio: 0.02400000000000002 
+common attributes taken('eventid', 'latitude') 
+merged dataset dimension: (500, 18) 
+dimension after running correlation: (500, 2) 
+missing value ratio: 0.01200000000000001 
+common attributes taken('longitude',) 
+common attributes taken('latitude',) 
+best output among those runs(according to missing value ratio): 
+parameters: ['eventid', 'latitude'] 
+missing value ratio: 0.01200000000000001 
+ 
+ 
+ 
+################################## 
+ 
+ 
+both initial dataset dimension: 5000 x 10 
+common attributes taken('longitude', 'eventid', 'latitude') 
+merged dataset dimension: (500, 17) 
+dimension after running correlation: (500, 1) 
+missing value ratio: 0.02400000000000002 
+common attributes taken('longitude', 'latitude') 
+common attributes taken('eventid',) 
+merged dataset dimension: (500, 19) 
+dimension after running correlation: (500, 7) 
+missing value ratio: 0.016857142857142904 
+common attributes taken('longitude',) 
+best output among those runs(according to missing value ratio): 
+parameters: ['eventid'] 
+missing value ratio: 0.016857142857142904 
+ 
+ 
+ 
+################################## 
+ 
+ 
+both initial dataset dimension: 5000 x 10 
+common attributes taken('longitude', 'latitude', 'eventid') 
+merged dataset dimension: (500, 17) 
+dimension after running correlation: (500, 0) 
+common attributes taken('suicide', 'eventid') 
+merged dataset dimension: (500, 18) 
+dimension after running correlation: (500, 0) 
+common attributes taken('eventid',) 
+merged dataset dimension: (500, 19) 
+dimension after running correlation: (500, 5) 
+missing value ratio: 0.008000000000000007 
+common attributes taken('longitude', 'suicide', 'eventid') 
+merged dataset dimension: (500, 17) 
+dimension after running correlation: (500, 0) 
+common attributes taken('longitude', 'latitude') 
+best output among those runs(according to missing value ratio): 
+parameters: ['eventid'] 
+missing value ratio: 0.008000000000000007 
+ 
+ 
+ 
+################################## 
+ 
+ 
+both initial dataset dimension: 5000 x 10 
+common attributes taken('latitude', 'eventid', 'propextent', 'longitude') 
+merged dataset dimension: (500, 16) 
+dimension after running correlation: (500, 3) 
+missing value ratio: 0.02533333333333332 
+common attributes taken('iday', 'eventid', 'propextent') 
+merged dataset dimension: (500, 17) 
+dimension after running correlation: (500, 3) 
+missing value ratio: 0.03066666666666662 
+common attributes taken('iday', 'eventid') 
+merged dataset dimension: (500, 18) 
+dimension after running correlation: (500, 5) 
+missing value ratio: 0.021599999999999953 
+common attributes taken('latitude', 'longitude') 
+common attributes taken('latitude', 'eventid', 'longitude') 
+merged dataset dimension: (500, 17) 
+dimension after running correlation: (500, 3) 
+missing value ratio: 0.02533333333333332 
+common attributes taken('latitude', 'iday', 'longitude') 
+best output among those runs(according to missing value ratio): 
+parameters: ['iday', 'eventid'] 
+missing value ratio: 0.021599999999999953 
+ 
+ 
+ 
+################################## 
+ 
+ 
+both initial dataset dimension: 5000 x 10 
+common attributes taken('longitude',) 
+common attributes taken('latitude', 'eventid') 
+merged dataset dimension: (500, 18) 
+dimension after running correlation: (500, 1) 
+missing value ratio: 0.0 
+common attributes taken('latitude', 'eventid', 'longitude') 
+merged dataset dimension: (500, 17) 
+dimension after running correlation: (500, 1) 
+missing value ratio: 0.0 
+common attributes taken('latitude',) 
+best output among those runs(according to missing value ratio): 
+parameters: ['latitude', 'eventid'] 
+missing value ratio: 0.0 
+ 
+ 
+ 
+################################## 
+ 
+ 
+both initial dataset dimension: 5000 x 10 
+common attributes taken('longitude',) 
+common attributes taken('weaptype2', 'longitude', 'latitude') 
+common attributes taken('weaptype2', 'longitude', 'eventid') 
+merged dataset dimension: (500, 17) 
+dimension after running correlation: (500, 1) 
+missing value ratio: 0.0 
+common attributes taken('weaptype2',) 
+common attributes taken('longitude', 'eventid') 
+merged dataset dimension: (500, 18) 
+dimension after running correlation: (500, 3) 
+missing value ratio: 0.0 
+best output among those runs(according to missing value ratio): 
+parameters: ['weaptype2', 'longitude', 'eventid'] 
+missing value ratio: 0.0 
+ 
+ 
+ 
+################################## 
+ 
+ 
+both initial dataset dimension: 5000 x 10 
+common attributes taken('eventid', 'longitude') 
+merged dataset dimension: (500, 18) 
+dimension after running correlation: (500, 1) 
+missing value ratio: 0.0 
+common attributes taken('latitude',) 
+common attributes taken('eventid', 'latitude') 
+merged dataset dimension: (500, 18) 
+dimension after running correlation: (500, 1) 
+missing value ratio: 0.0 
+common attributes taken('longitude',) 
+best output among those runs(according to missing value ratio): 
+parameters: ['eventid', 'longitude'] 
+missing value ratio: 0.0 
+ 
+ 
+ 
+################################## 
+ 
+ 
+both initial dataset dimension: 5000 x 10 
+common attributes taken('ishostkid', 'eventid', 'crit2') 
+merged dataset dimension: (500, 17) 
+dimension after running correlation: (500, 1) 
+missing value ratio: 0.842 
+common attributes taken('longitude',) 
+common attributes taken('ishostkid', 'latitude', 'longitude', 'crit2') 
+common attributes taken('eventid', 'latitude', 'longitude', 'crit2') 
+merged dataset dimension: (500, 16) 
+dimension after running correlation: (500, 1) 
+missing value ratio: 0.842 
+common attributes taken('ishostkid', 'eventid', 'latitude', 'longitude', 'crit2') 
+merged dataset dimension: (500, 15) 
+dimension after running correlation: (500, 1) 
+missing value ratio: 0.842 
+common attributes taken('ishostkid', 'latitude', 'longitude') 
+################################## 
+ 
+ 
+both initial dataset dimension: 5000 x 10 
+common attributes taken('eventid', 'longitude', 'claimmode') 
+merged dataset dimension: (500, 17) 
+dimension after running correlation: (500, 1) 
+missing value ratio: 1.0 
+common attributes taken('eventid', 'longitude') 
+merged dataset dimension: (500, 18) 
+dimension after running correlation: (500, 1) 
+missing value ratio: 1.0 
+common attributes taken('longitude', 'claimmode') 
+common attributes taken('longitude',) 
+common attributes taken('eventid', 'longitude', 'latitude', 'claimmode') 
+merged dataset dimension: (500, 16) 
+dimension after running correlation: (500, 1) 
+missing value ratio: 1.0 
+best output among those runs(according to missing value ratio): 
+parameters: ['eventid', 'longitude', 'latitude', 'claimmode'] 
+missing value ratio: 1.0 
+ 
+ 
+ 
+################################## 
+ 
+ 
+both initial dataset dimension: 5000 x 10 
+common attributes taken('longitude', 'latitude') 
+common attributes taken('longitude', 'eventid') 
+merged dataset dimension: (500, 18) 
+dimension after running correlation: (500, 4) 
+missing value ratio: 0.08150000000000002 
+common attributes taken('eventid', 'latitude') 
+merged dataset dimension: (500, 18) 
+dimension after running correlation: (500, 5) 
+missing value ratio: 0.06520000000000004 
+common attributes taken('longitude', 'eventid', 'latitude') 
+merged dataset dimension: (500, 17) 
+dimension after running correlation: (500, 4) 
+missing value ratio: 0.08150000000000002 
+best output among those runs(according to missing value ratio): 
+parameters: ['eventid', 'latitude'] 
+missing value ratio: 0.06520000000000004 
+ 
+ 
+ 
+################################## 
+ 
+ 
+both initial dataset dimension: 5000 x 10 
+common attributes taken('nperpcap', 'latitude', 'specificity') 
+common attributes taken('eventid', 'nperpcap', 'longitude') 
+merged dataset dimension: (500, 17) 
+dimension after running correlation: (500, 2) 
+missing value ratio: 0.038000000000000034 
+common attributes taken('eventid', 'nperpcap', 'latitude', 'specificity') 
+merged dataset dimension: (500, 16) 
+dimension after running correlation: (500, 2) 
+missing value ratio: 0.038000000000000034 
+common attributes taken('int_ideo', 'eventid', 'nperpcap', 'latitude') 
+merged dataset dimension: (500, 16) 
+dimension after running correlation: (500, 1) 
+missing value ratio: 0.0 
+common attributes taken('nperpcap', 'latitude', 'longitude') 
+common attributes taken('int_ideo', 'specificity') 
+common attributes taken('int_ideo', 'nperpcap', 'longitude') 
+best output among those runs(according to missing value ratio): 
+parameters: ['int_ideo', 'eventid', 'nperpcap', 'latitude'] 
+missing value ratio: 0.0 
+ 
+ 
+ 
+################################## 
+ 
+ 
+both initial dataset dimension: 5000 x 10 
+common attributes taken('latitude', 'eventid') 
+merged dataset dimension: (500, 18) 
+dimension after running correlation: (500, 2) 
+missing value ratio: 0.651 
+common attributes taken('latitude', 'eventid', 'longitude') 
+merged dataset dimension: (500, 17) 
+dimension after running correlation: (500, 2) 
+missing value ratio: 0.651 
+common attributes taken('longitude',) 
+common attributes taken('eventid',) 
+merged dataset dimension: (500, 19) 
+dimension after running correlation: (500, 8) 
+missing value ratio: 0.2895 
+best output among those runs(according to missing value ratio): 
+parameters: ['eventid'] 
+missing value ratio: 0.2895 
+ 
+ 
+ 
+################################## 
+ 
+ 
+both initial dataset dimension: 5000 x 10 
+common attributes taken('longitude', 'targsubtype1') 
+common attributes taken('eventid', 'nkill') 
+merged dataset dimension: (500, 18) 
+dimension after running correlation: (500, 6) 
+missing value ratio: 0.18600000000000005 
+common attributes taken('longitude', 'latitude') 
+common attributes taken('longitude', 'nkill', 'targsubtype1', 'latitude') 
+common attributes taken('eventid', 'nkill', 'targsubtype1') 
+merged dataset dimension: (500, 17) 
+dimension after running correlation: (500, 4) 
+missing value ratio: 0.273 
+common attributes taken('eventid', 'longitude', 'nkill') 
+merged dataset dimension: (500, 17) 
+dimension after running correlation: (500, 5) 
+missing value ratio: 0.21999999999999997 
+best output among those runs(according to missing value ratio): 
+parameters: ['eventid', 'nkill'] 
+missing value ratio: 0.18600000000000005 
+ 
+ 
+ 
+################################## 
+ 
+ 
+both initial dataset dimension: 5000 x 10 
+common attributes taken('longitude', 'eventid', 'latitude') 
+merged dataset dimension: (500, 17) 
+dimension after running correlation: (500, 1) 
+missing value ratio: 0.0 
+common attributes taken('eventid', 'latitude') 
+merged dataset dimension: (500, 18) 
+dimension after running correlation: (500, 1) 
+missing value ratio: 0.0 
+common attributes taken('latitude',) 
+common attributes taken('longitude', 'eventid', 'success') 
+merged dataset dimension: (500, 17) 
+dimension after running correlation: (500, 0) 
+common attributes taken('longitude', 'latitude') 
+best output among those runs(according to missing value ratio): 
+parameters: ['longitude', 'eventid', 'latitude'] 
+missing value ratio: 0.0 
+ 
+ 
+ 
+################################## 
+ 
+ 
+both initial dataset dimension: 5000 x 10 
+################################## 
+ 
+ 
+both initial dataset dimension: 5000 x 10 
+common attributes taken('longitude', 'latitude', 'eventid') 
+merged dataset dimension: (500, 17) 
+dimension after running correlation: (500, 1) 
+missing value ratio: 0.0 
+common attributes taken('ransomamt', 'longitude', 'eventid') 
+merged dataset dimension: (500, 17) 
+dimension after running correlation: (500, 0) 
+common attributes taken('nwoundte', 'eventid') 
+merged dataset dimension: (500, 18) 
+dimension after running correlation: (500, 0) 
+common attributes taken('ransomamt', 'nwoundte', 'eventid') 
+merged dataset dimension: (500, 17) 
+dimension after running correlation: (500, 0) 
+common attributes taken('nwoundte',) 
+common attributes taken('longitude', 'latitude') 
+best output among those runs(according to missing value ratio): 
+parameters: ['longitude', 'latitude', 'eventid'] 
+missing value ratio: 0.0 
+ 
+ 
+ 
+################################## 
+ 
+ 
+both initial dataset dimension: 5000 x 10 
+common attributes taken('longitude', 'eventid', 'latitude', 'crit2') 
+merged dataset dimension: (500, 16) 
+dimension after running correlation: (500, 0) 
+common attributes taken('eventid',) 
+merged dataset dimension: (500, 19) 
+dimension after running correlation: (500, 4) 
+missing value ratio: 0.08350000000000002 
+common attributes taken('latitude', 'crit2') 
+common attributes taken('eventid', 'latitude') 
+merged dataset dimension: (500, 18) 
+dimension after running correlation: (500, 2) 
+missing value ratio: 0.15100000000000002 
+common attributes taken('eventid', 'latitude', 'crit2') 
+merged dataset dimension: (500, 17) 
+dimension after running correlation: (500, 0) 
+best output among those runs(according to missing value ratio): 
+parameters: ['eventid'] 
+missing value ratio: 0.08350000000000002 
+ 
+ 
+ 
+################################## 
+ 
+ 
+both initial dataset dimension: 5000 x 10 
+common attributes taken('longitude', 'latitude', 'eventid') 
+merged dataset dimension: (500, 17) 
+dimension after running correlation: (500, 3) 
+missing value ratio: 0.33333333333333337 
+common attributes taken('latitude',) 
+common attributes taken('eventid',) 
+merged dataset dimension: (500, 19) 
+dimension after running correlation: (500, 6) 
+missing value ratio: 0.17200000000000004 
+common attributes taken('longitude', 'eventid') 
+merged dataset dimension: (500, 18) 
+dimension after running correlation: (500, 3) 
+missing value ratio: 0.33333333333333337 
+best output among those runs(according to missing value ratio): 
+parameters: ['eventid'] 
+missing value ratio: 0.17200000000000004 
+ 
+ 
+ 
+################################## 
+ 
+ 
+both initial dataset dimension: 5000 x 10 
+common attributes taken('longitude',) 
+common attributes taken('latitude', 'eventid') 
+merged dataset dimension: (500, 18) 
+dimension after running correlation: (500, 1) 
+missing value ratio: 0.0 
+common attributes taken('longitude', 'eventid') 
+merged dataset dimension: (500, 18) 
+dimension after running correlation: (500, 1) 
+missing value ratio: 0.0 
+common attributes taken('latitude', 'longitude', 'eventid') 
+merged dataset dimension: (500, 17) 
+dimension after running correlation: (500, 1) 
+missing value ratio: 0.0 
+best output among those runs(according to missing value ratio): 
+parameters: ['latitude', 'eventid'] 
+missing value ratio: 0.0 
+ 
+ 
+ 
+################################## 
+ 
+ 
+both initial dataset dimension: 5000 x 10 
+common attributes taken('eventid', 'related', 'longitude', 'latitude') 
+merged dataset dimension: (500, 16) 
+################################## 
+ 
+ 
+both initial dataset dimension: 5000 x 10 
+common attributes taken('latitude', 'longitude', 'eventid', 'vicinity') 
+merged dataset dimension: (500, 16) 
+dimension after running correlation: (500, 1) 
+missing value ratio: 0.0 
+common attributes taken('latitude', 'eventid') 
+merged dataset dimension: (500, 18) 
+dimension after running correlation: (500, 3) 
+missing value ratio: 0.020666666666666722 
+common attributes taken('eventid', 'vicinity') 
+merged dataset dimension: (500, 18) 
+dimension after running correlation: (500, 6) 
+missing value ratio: 0.015666666666666718 
+common attributes taken('longitude', 'vicinity') 
+common attributes taken('vicinity',) 
+best output among those runs(according to missing value ratio): 
+parameters: ['latitude', 'longitude', 'eventid', 'vicinity'] 
+missing value ratio: 0.0 
+ 
+ 
+ 
+################################## 
+ 
+ 
+both initial dataset dimension: 5000 x 10 
+common attributes taken('eventid',) 
+merged dataset dimension: (500, 19) 
+dimension after running correlation: (500, 5) 
+missing value ratio: 0.008000000000000007 
+common attributes taken('claimed', 'eventid', 'longitude') 
+merged dataset dimension: (500, 17) 
+dimension after running correlation: (500, 1) 
+missing value ratio: 0.0 
+common attributes taken('claimed', 'longitude', 'latitude') 
+common attributes taken('longitude', 'latitude') 
+common attributes taken('claimed', 'longitude') 
+best output among those runs(according to missing value ratio): 
+parameters: ['claimed', 'eventid', 'longitude'] 
+missing value ratio: 0.0 
+ 
+ 
+ 
+################################## 
+ 
+ 
+both initial dataset dimension: 5000 x 10 
+common attributes taken('longitude', 'iday', 'eventid') 
+merged dataset dimension: (500, 17) 
+dimension after running correlation: (500, 3) 
+missing value ratio: 0.0 
+common attributes taken('longitude', 'latitude', 'eventid') 
+merged dataset dimension: (500, 17) 
+dimension after running correlation: (500, 3) 
+missing value ratio: 0.0 
+common attributes taken('longitude', 'latitude', 'iday', 'eventid') 
+merged dataset dimension: (500, 16) 
+dimension after running correlation: (500, 2) 
+missing value ratio: 0.0 
+common attributes taken('longitude', 'iday') 
+common attributes taken('iday', 'eventid') 
+merged dataset dimension: (500, 18) 
+dimension after running correlation: (500, 6) 
+missing value ratio: 0.005333333333333301 
+best output among those runs(according to missing value ratio): 
+parameters: ['longitude', 'iday', 'eventid'] 
+missing value ratio: 0.0 
+ 
+ 
+ 
+################################## 
+ 
+ 
+both initial dataset dimension: 5000 x 10 
+common attributes taken('nkillter', 'eventid') 
+merged dataset dimension: (500, 18) 
+dimension after running correlation: (500, 3) 
+missing value ratio: 0.005333333333333301 
+common attributes taken('nkillter', 'eventid', 'longitude', 'latitude') 
+merged dataset dimension: (500, 16) 
+dimension after running correlation: (500, 2) 
+missing value ratio: 0.0 
+common attributes taken('nkillter', 'longitude', 'latitude') 
+common attributes taken('eventid',) 
+merged dataset dimension: (500, 19) 
+dimension after running correlation: (500, 5) 
+missing value ratio: 0.05359999999999998 
+common attributes taken('nkillter', 'eventid', 'longitude') 
+merged dataset dimension: (500, 17) 
+dimension after running correlation: (500, 2) 
+missing value ratio: 0.0 
+best output among those runs(according to missing value ratio): 
+parameters: ['nkillter', 'eventid', 'longitude', 'latitude'] 
+missing value ratio: 0.0 
+ 
+ 
+ 
+################################## 
+ 
+ 
+both initial dataset dimension: 5000 x 10 
+common attributes taken('eventid',) 
+merged dataset dimension: (500, 19) 
+dimension after running correlation: (500, 6) 
+missing value ratio: 0.15833333333333333 
+common attributes taken('latitude',) 
+common attributes taken('latitude', 'longitude', 'weapsubtype1') 
+common attributes taken('latitude', 'weapsubtype1') 
+common attributes taken('longitude',) 
+best output among those runs(according to missing value ratio): 
+parameters: ['eventid'] 
+missing value ratio: 0.15833333333333333 
+ 
+ 
+ 
+################################## 
+ 
+ 
+both initial dataset dimension: 5000 x 10 
+common attributes taken('eventid', 'longitude') 
+merged dataset dimension: (500, 18) 
+dimension after running correlation: (500, 2) 
+missing value ratio: 0.538 
+common attributes taken('latitude', 'longitude') 
+common attributes taken('latitude', 'eventid') 
+merged dataset dimension: (500, 18) 
+dimension after running correlation: (500, 2) 
+missing value ratio: 0.538 
+common attributes taken('latitude',) 
+best output among those runs(according to missing value ratio): 
+parameters: ['eventid', 'longitude'] 
+missing value ratio: 0.538 
+ 
+ 
+ 
+################################## 
+ 
+ 
+both initial dataset dimension: 5000 x 10 
+common attributes taken('eventid',) 
+merged dataset dimension: (500, 19) 
+dimension after running correlation: (500, 5) 
+missing value ratio: 0.006399999999999961 
+common attributes taken('longitude', 'eventid', 'latitude') 
+merged dataset dimension: (500, 17) 
+dimension after running correlation: (500, 1) 
+missing value ratio: 0.0 
+common attributes taken('latitude',) 
+common attributes taken('longitude', 'latitude') 
+best output among those runs(according to missing value ratio): 
+parameters: ['longitude', 'eventid', 'latitude'] 
+missing value ratio: 0.0 
+ 
+ 
+ 
+################################## 
+ 
+ 
+both initial dataset dimension: 5000 x 10 
+common attributes taken('nwound', 'eventid', 'int_misc', 'latitude') 
+merged dataset dimension: (500, 16) 
+dimension after running correlation: (500, 0) 
+common attributes taken('eventid', 'int_misc', 'region', 'latitude') 
+merged dataset dimension: (500, 16) 
+dimension after running correlation: (500, 1) 
+missing value ratio: 0.07599999999999996 
+common attributes taken('int_misc', 'longitude', 'latitude') 
+common attributes taken('eventid', 'int_misc', 'longitude', 'latitude') 
+merged dataset dimension: (500, 16) 
+dimension after running correlation: (500, 1) 
+missing value ratio: 0.07599999999999996 
+common attributes taken('int_misc', 'longitude') 
+common attributes taken('nwound', 'int_misc', 'longitude', 'latitude') 
+common attributes taken('nwound', 'region', 'longitude', 'latitude') 
+best output among those runs(according to missing value ratio): 
+parameters: ['eventid', 'int_misc', 'region', 'latitude'] 
+missing value ratio: 0.07599999999999996 
+ 
+ 
+ 
+################################## 
+ 
+ 
+both initial dataset dimension: 5000 x 10 
+common attributes taken('longitude', 'vicinity') 
+common attributes taken('longitude', 'vicinity', 'latitude') 
+common attributes taken('nreleased', 'eventid', 'vicinity') 
+merged dataset dimension: (500, 17) 
+dimension after running correlation: (500, 1) 
+missing value ratio: 0.0 
+common attributes taken('eventid',) 
+merged dataset dimension: (500, 19) 
+dimension after running correlation: (500, 6) 
+missing value ratio: 0.16766666666666663 
+common attributes taken('eventid', 'vicinity', 'latitude') 
+merged dataset dimension: (500, 17) 
+dimension after running correlation: (500, 1) 
+missing value ratio: 0.0 
+common attributes taken('nreleased', 'longitude', 'eventid', 'latitude') 
+merged dataset dimension: (500, 16) 
+dimension after running correlation: (500, 0) 
+best output among those runs(according to missing value ratio): 
+parameters: ['nreleased', 'eventid', 'vicinity'] 
+missing value ratio: 0.0 
+ 
+ 
+ 
+################################## 
+ 
+ 
+both initial dataset dimension: 5000 x 10 
+common attributes taken('eventid', 'latitude') 
+merged dataset dimension: (500, 18) 
+dimension after running correlation: (500, 1) 
+missing value ratio: 0.0 
+common attributes taken('latitude',) 
+common attributes taken('longitude', 'latitude') 
+common attributes taken('eventid', 'longitude', 'latitude') 
+merged dataset dimension: (500, 17) 
+dimension after running correlation: (500, 1) 
+missing value ratio: 0.0 
+best output among those runs(according to missing value ratio): 
+parameters: ['eventid', 'latitude'] 
+missing value ratio: 0.0 
+ 
+ 
+ 
+################################## 
+ 
+ 
+both initial dataset dimension: 5000 x 10 
+common attributes taken('longitude', 'weaptype2') 
+common attributes taken('eventid',) 
+merged dataset dimension: (500, 19) 
+dimension after running correlation: (500, 5) 
+missing value ratio: 0.006399999999999961 
+common attributes taken('longitude', 'weaptype2', 'property', 'eventid') 
+merged dataset dimension: (500, 16) 
+dimension after running correlation: (500, 0) 
+common attributes taken('latitude',) 
+common attributes taken('longitude', 'property', 'eventid') 
+merged dataset dimension: (500, 17) 
+dimension after running correlation: (500, 1) 
+missing value ratio: 0.0 
+common attributes taken('longitude', 'weaptype2', 'property') 
+best output among those runs(according to missing value ratio): 
+parameters: ['longitude', 'property', 'eventid'] 
+missing value ratio: 0.0 
+ 
+ 
+ 
+################################## 
+ 
+ 
+both initial dataset dimension: 5000 x 10 
+common attributes taken('crit3', 'latitude') 
+common attributes taken('eventid', 'crit3') 
+merged dataset dimension: (500, 18) 
+dimension after running correlation: (500, 0) 
+common attributes taken('latitude',) 
+common attributes taken('longitude', 'eventid', 'crit3') 
+merged dataset dimension: (500, 17) 
+dimension after running correlation: (500, 0) 
+common attributes taken('eventid',) 
+merged dataset dimension: (500, 19) 
+dimension after running correlation: (500, 4) 
+missing value ratio: 0.06699999999999995 
+best output among those runs(according to missing value ratio): 
+parameters: ['eventid'] 
+missing value ratio: 0.06699999999999995 
+ 
+ 
+ 
+################################## 
+ 
+ 
+both initial dataset dimension: 5000 x 10 
+common attributes taken('latitude', 'property', 'longitude', 'eventid') 
+merged dataset dimension: (500, 16) 
+dimension after running correlation: (500, 1) 
+missing value ratio: 0.32199999999999995 
+common attributes taken('property', 'eventid') 
+merged dataset dimension: (500, 18) 
+dimension after running correlation: (500, 6) 
+missing value ratio: 0.09966666666666668 
+common attributes taken('property', 'longitude', 'eventid') 
+merged dataset dimension: (500, 17) 
+dimension after running correlation: (500, 1) 
+missing value ratio: 0.32199999999999995 
+common attributes taken('eventid',) 
+merged dataset dimension: (500, 19) 
+dimension after running correlation: (500, 8) 
+missing value ratio: 0.07474999999999998 
+common attributes taken('latitude', 'property', 'longitude') 
+best output among those runs(according to missing value ratio): 
+parameters: ['eventid'] 
+missing value ratio: 0.07474999999999998 
+ 
+ 
+ 
+################################## 
+ 
+ 
+both initial dataset dimension: 5000 x 10 
+common attributes taken('weapsubtype2', 'longitude') 
+common attributes taken('eventid', 'weapsubtype2', 'weapsubtype3') 
+merged dataset dimension: (500, 17) 
+dimension after running correlation: (500, 0) 
+common attributes taken('weapsubtype3',) 
+common attributes taken('weapsubtype2', 'latitude', 'weapsubtype3') 
+common attributes taken('weapsubtype2', 'weapsubtype3') 
+common attributes taken('eventid', 'weapsubtype2', 'latitude', 'weapsubtype3') 
+merged dataset dimension: (500, 16) 
+dimension after running correlation: (500, 0) 
+################################## 
+ 
+ 
+both initial dataset dimension: 5000 x 10 
+common attributes taken('eventid',) 
+merged dataset dimension: (500, 19) 
+dimension after running correlation: (500, 11) 
+missing value ratio: 0.11672727272727268 
+common attributes taken('longitude', 'eventid') 
+merged dataset dimension: (500, 18) 
+dimension after running correlation: (500, 4) 
+missing value ratio: 0.30500000000000005 
+common attributes taken('latitude', 'eventid') 
+merged dataset dimension: (500, 18) 
+dimension after running correlation: (500, 5) 
+missing value ratio: 0.244 
+common attributes taken('latitude', 'longitude') 
+best output among those runs(according to missing value ratio): 
+parameters: ['eventid'] 
+missing value ratio: 0.11672727272727268 
+ 
+ 
+ 
+################################## 
+ 
+ 
+both initial dataset dimension: 5000 x 10 
+common attributes taken('longitude',) 
+common attributes taken('longitude', 'eventid') 
+merged dataset dimension: (500, 18) 
+dimension after running correlation: (500, 3) 
+missing value ratio: 0.2806666666666666 
+common attributes taken('latitude',) 
+common attributes taken('eventid',) 
+merged dataset dimension: (500, 19) 
+dimension after running correlation: (500, 10) 
+missing value ratio: 0.09060000000000001 
+best output among those runs(according to missing value ratio): 
+parameters: ['eventid'] 
+missing value ratio: 0.09060000000000001 
+ 
+ 
+ 
+################################## 
+ 
+ 
+both initial dataset dimension: 5000 x 10 
+common attributes taken('longitude', 'eventid') 
+merged dataset dimension: (500, 18) 
+dimension after running correlation: (500, 4) 
+missing value ratio: 0.0 
+common attributes taken('weapsubtype3', 'latitude', 'longitude', 'eventid') 
+merged dataset dimension: (500, 16) 
+dimension after running correlation: (500, 0) 
+common attributes taken('latitude', 'eventid') 
+merged dataset dimension: (500, 18) 
+dimension after running correlation: (500, 3) 
+missing value ratio: 0.0 
+common attributes taken('weapsubtype3',) 
+common attributes taken('latitude', 'longitude', 'eventid') 
+merged dataset dimension: (500, 17) 
+dimension after running correlation: (500, 3) 
+missing value ratio: 0.0 
+best output among those runs(according to missing value ratio): 
+parameters: ['longitude', 'eventid'] 
+missing value ratio: 0.0 
+ 
+ 
+ 
+################################## 
+ 
+ 
+both initial dataset dimension: 5000 x 10 
+common attributes taken('specificity', 'guncertain1') 
+common attributes taken('longitude', 'guncertain1') 
+common attributes taken('latitude', 'eventid') 
+merged dataset dimension: (500, 18) 
+dimension after running correlation: (500, 7) 
+missing value ratio: 0.06571428571428573 
+common attributes taken('longitude', 'specificity', 'latitude', 'eventid') 
+merged dataset dimension: (500, 16) 
+dimension after running correlation: (500, 1) 
+missing value ratio: 0.07599999999999996 
+common attributes taken('longitude', 'eventid') 
+merged dataset dimension: (500, 18) 
+dimension after running correlation: (500, 3) 
+missing value ratio: 0.1326666666666667 
+common attributes taken('specificity',) 
+best output among those runs(according to missing value ratio): 
+parameters: ['latitude', 'eventid'] 
+missing value ratio: 0.06571428571428573 
+ 
+ 
+ 
+################################## 
+ 
+ 
+both initial dataset dimension: 5000 x 10 
+common attributes taken('nwoundte', 'latitude', 'eventid') 
+merged dataset dimension: (500, 17) 
+dimension after running correlation: (500, 0) 
+common attributes taken('eventid',) 
+merged dataset dimension: (500, 19) 
+dimension after running correlation: (500, 12) 
+missing value ratio: 0.08650000000000002 
+common attributes taken('latitude', 'longitude') 
+common attributes taken('latitude', 'eventid', 'longitude') 
+merged dataset dimension: (500, 17) 
+dimension after running correlation: (500, 3) 
+missing value ratio: 0.0 
+common attributes taken('nwoundte', 'latitude', 'eventid', 'longitude') 
+merged dataset dimension: (500, 16) 
+dimension after running correlation: (500, 0) 
+best output among those runs(according to missing value ratio): 
+parameters: ['latitude', 'eventid', 'longitude'] 
+missing value ratio: 0.0 
+ 
+ 
+ 
+################################## 
+ 
+ 
+both initial dataset dimension: 5000 x 10 
+common attributes taken('eventid', 'longitude') 
+merged dataset dimension: (500, 18) 
+dimension after running correlation: (500, 5) 
+missing value ratio: 0.020000000000000018 
+common attributes taken('eventid',) 
+merged dataset dimension: (500, 19) 
+dimension after running correlation: (500, 14) 
+missing value ratio: 0.0981428571428572 
+common attributes taken('latitude', 'eventid', 'longitude') 
+merged dataset dimension: (500, 17) 
+dimension after running correlation: (500, 4) 
+missing value ratio: 0.025000000000000022 
+common attributes taken('latitude', 'eventid') 
+merged dataset dimension: (500, 18) 
+dimension after running correlation: (500, 6) 
+missing value ratio: 0.01666666666666672 
+best output among those runs(according to missing value ratio): 
+parameters: ['latitude', 'eventid'] 
+missing value ratio: 0.01666666666666672 
+ 
+ 
+ 
+################################## 
+ 
+ 
+both initial dataset dimension: 5000 x 10 
+common attributes taken('latitude', 'eventid') 
+merged dataset dimension: (500, 18) 
+dimension after running correlation: (500, 6) 
+missing value ratio: 0.13966666666666672 
+common attributes taken('latitude', 'nwound', 'longitude') 
+common attributes taken('nwound',) 
+common attributes taken('nwound', 'longitude') 
+common attributes taken('latitude', 'longitude', 'eventid') 
+merged dataset dimension: (500, 17) 
+dimension after running correlation: (500, 5) 
+missing value ratio: 0.1552 
+best output among those runs(according to missing value ratio): 
+parameters: ['latitude', 'eventid'] 
+missing value ratio: 0.13966666666666672 
+ 
+ 
+ 
+################################## 
+ 
+ 
+both initial dataset dimension: 5000 x 10 
+common attributes taken('vicinity', 'latitude') 
+common attributes taken('longitude', 'latitude') 
+common attributes taken('longitude',) 
+common attributes taken('longitude', 'vicinity', 'eventid') 
+merged dataset dimension: (500, 17) 
+dimension after running correlation: (500, 6) 
+missing value ratio: 0.06299999999999994 
+common attributes taken('longitude', 'vicinity', 'latitude') 
+################################## 
+ 
+ 
+both initial dataset dimension: 5000 x 10 
+common attributes taken('latitude', 'crit2', 'crit3') 
+common attributes taken('longitude', 'eventid', 'crit3') 
+merged dataset dimension: (500, 17) 
+dimension after running correlation: (500, 3) 
+missing value ratio: 0.2806666666666666 
+common attributes taken('longitude', 'crit2') 
+common attributes taken('eventid', 'crit3') 
+merged dataset dimension: (500, 18) 
+dimension after running correlation: (500, 7) 
+missing value ratio: 0.12142857142857144 
+common attributes taken('crit3',) 
+common attributes taken('longitude', 'crit2', 'eventid', 'crit3') 
+merged dataset dimension: (500, 16) 
+dimension after running correlation: (500, 1) 
+missing value ratio: 0.842 
+best output among those runs(according to missing value ratio): 
+parameters: ['eventid', 'crit3'] 
+missing value ratio: 0.12142857142857144 
+ 
+ 
+ 
+################################## 
+ 
+ 
+both initial dataset dimension: 5000 x 10 
+common attributes taken('longitude', 'latitude', 'eventid') 
+merged dataset dimension: (500, 17) 
+dimension after running correlation: (500, 3) 
+missing value ratio: 0.126 
+common attributes taken('longitude',) 
+common attributes taken('latitude', 'eventid') 
+merged dataset dimension: (500, 18) 
+dimension after running correlation: (500, 4) 
+missing value ratio: 0.09450000000000003 
+common attributes taken('longitude', 'eventid') 
+merged dataset dimension: (500, 18) 
+dimension after running correlation: (500, 4) 
+missing value ratio: 0.09450000000000003 
+################################## 
+ 
+ 
+both initial dataset dimension: 5000 x 10 
+common attributes taken('nkillus', 'longitude') 
+common attributes taken('longitude', 'latitude', 'eventid') 
+merged dataset dimension: (500, 17) 
+dimension after running correlation: (500, 3) 
+missing value ratio: 0.10733333333333328 
+common attributes taken('nkillus',) 
+common attributes taken('latitude',) 
+common attributes taken('nkillus', 'latitude') 
+best output among those runs(according to missing value ratio): 
+parameters: ['longitude', 'latitude', 'eventid'] 
+missing value ratio: 0.10733333333333328 
+ 
+ 
+ 
+################################## 
+ 
+ 
+both initial dataset dimension: 5000 x 10 
+common attributes taken('latitude', 'eventid', 'related', 'longitude') 
+merged dataset dimension: (500, 16) 
+################################## 
+ 
+ 
+both initial dataset dimension: 5000 x 10 
+common attributes taken('longitude', 'int_ideo', 'latitude') 
+common attributes taken('eventid',) 
+merged dataset dimension: (500, 19) 
+dimension after running correlation: (500, 15) 
+missing value ratio: 0.1338666666666667 
+common attributes taken('longitude', 'latitude') 
+common attributes taken('longitude', 'int_ideo', 'related') 
+common attributes taken('int_ideo',) 
+common attributes taken('eventid', 'latitude', 'related') 
+merged dataset dimension: (500, 17) 
+################################## 
+ 
+ 
+both initial dataset dimension: 5000 x 10 
+common attributes taken('latitude',) 
+common attributes taken('longitude', 'eventid', 'latitude') 
+merged dataset dimension: (500, 17) 
+dimension after running correlation: (500, 3) 
+missing value ratio: 0.0 
+common attributes taken('longitude',) 
+common attributes taken('eventid',) 
+merged dataset dimension: (500, 19) 
+dimension after running correlation: (500, 13) 
+missing value ratio: 0.009692307692307667 
+best output among those runs(according to missing value ratio): 
+parameters: ['longitude', 'eventid', 'latitude'] 
+missing value ratio: 0.0 
+ 
+ 
+ 
+################################## 
+ 
+ 
+both initial dataset dimension: 5000 x 10 
+common attributes taken('longitude', 'eventid') 
+merged dataset dimension: (500, 18) 
+dimension after running correlation: (500, 2) 
+missing value ratio: 0.0 
+common attributes taken('longitude',) 
+common attributes taken('eventid',) 
+merged dataset dimension: (500, 19) 
+dimension after running correlation: (500, 12) 
+missing value ratio: 0.010499999999999954 
+common attributes taken('latitude', 'eventid') 
+merged dataset dimension: (500, 18) 
+dimension after running correlation: (500, 3) 
+missing value ratio: 0.020666666666666722 
+best output among those runs(according to missing value ratio): 
+parameters: ['longitude', 'eventid'] 
+missing value ratio: 0.0 
+ 
+ 
+ 
+################################## 
+ 
+ 
+both initial dataset dimension: 5000 x 10 
+common attributes taken('crit3', 'claim2') 
+common attributes taken('eventid', 'longitude', 'int_misc') 
+merged dataset dimension: (500, 17) 
+dimension after running correlation: (500, 4) 
+missing value ratio: 0.019000000000000017 
+common attributes taken('eventid', 'claim2') 
+merged dataset dimension: (500, 18) 
+dimension after running correlation: (500, 0) 
+common attributes taken('latitude',) 
+common attributes taken('latitude', 'longitude', 'int_misc') 
+common attributes taken('longitude', 'claim2') 
+common attributes taken('latitude', 'crit3', 'longitude', 'int_misc') 
+best output among those runs(according to missing value ratio): 
+parameters: ['eventid', 'longitude', 'int_misc'] 
+missing value ratio: 0.019000000000000017 
+ 
+ 
+ 
+################################## 
+ 
+ 
+both initial dataset dimension: 5000 x 10 
+common attributes taken('nwound',) 
+common attributes taken('longitude', 'nwound') 
+common attributes taken('longitude',) 
+common attributes taken('latitude',) 
+common attributes taken('eventid',) 
+merged dataset dimension: (500, 19) 
+dimension after running correlation: (500, 12) 
+missing value ratio: 0.01866666666666672 
+best output among those runs(according to missing value ratio): 
+parameters: ['eventid'] 
+missing value ratio: 0.01866666666666672 
+ 
+ 
+ 
+################################## 
+ 
+ 
+both initial dataset dimension: 5000 x 10 
+common attributes taken('longitude',) 
+common attributes taken('eventid',) 
+merged dataset dimension: (500, 19) 
+dimension after running correlation: (500, 14) 
+missing value ratio: 0.09671428571428575 
+common attributes taken('latitude', 'eventid') 
+merged dataset dimension: (500, 18) 
+dimension after running correlation: (500, 7) 
+missing value ratio: 0.18314285714285716 
+common attributes taken('longitude', 'latitude', 'eventid') 
+merged dataset dimension: (500, 17) 
+dimension after running correlation: (500, 4) 
+missing value ratio: 0.30500000000000005 
+################################## 
+ 
+ 
+both initial dataset dimension: 5000 x 10 
+common attributes taken('latitude', 'longitude', 'eventid') 
+merged dataset dimension: (500, 17) 
+dimension after running correlation: (500, 2) 
+missing value ratio: 0.0 
+common attributes taken('longitude',) 
+common attributes taken('eventid',) 
+merged dataset dimension: (500, 19) 
+dimension after running correlation: (500, 13) 
+missing value ratio: 0.005538461538461492 
+common attributes taken('latitude', 'longitude') 
+best output among those runs(according to missing value ratio): 
+parameters: ['latitude', 'longitude', 'eventid'] 
+missing value ratio: 0.0 
+ 
+ 
+ 
+################################## 
+ 
+ 
+both initial dataset dimension: 5000 x 10 
+common attributes taken('eventid', 'longitude') 
+merged dataset dimension: (500, 18) 
+dimension after running correlation: (500, 4) 
+missing value ratio: 0.08050000000000002 
+common attributes taken('eventid',) 
+merged dataset dimension: (500, 19) 
+dimension after running correlation: (500, 13) 
+missing value ratio: 0.12276923076923074 
+common attributes taken('eventid', 'latitude') 
+merged dataset dimension: (500, 18) 
+dimension after running correlation: (500, 5) 
+missing value ratio: 0.06440000000000001 
+common attributes taken('longitude',) 
+best output among those runs(according to missing value ratio): 
+parameters: ['eventid', 'latitude'] 
+missing value ratio: 0.06440000000000001 
+ 
+ 
+ 
+################################## 
+ 
+ 
+both initial dataset dimension: 5000 x 10 
+common attributes taken('latitude', 'longitude') 
+common attributes taken('eventid',) 
+merged dataset dimension: (500, 19) 
+dimension after running correlation: (500, 14) 
+missing value ratio: 0.09642857142857142 
+common attributes taken('longitude',) 
+common attributes taken('eventid', 'longitude') 
+merged dataset dimension: (500, 18) 
+dimension after running correlation: (500, 5) 
+missing value ratio: 0.015199999999999991 
+best output among those runs(according to missing value ratio): 
+parameters: ['eventid', 'longitude'] 
+missing value ratio: 0.015199999999999991 
+ 
+ 
+ 
+################################## 
+ 
+ 
+both initial dataset dimension: 5000 x 10 
+common attributes taken('longitude', 'eventid') 
+merged dataset dimension: (500, 18) 
+dimension after running correlation: (500, 5) 
+missing value ratio: 0.17320000000000002 
+common attributes taken('latitude', 'weaptype2', 'eventid') 
+merged dataset dimension: (500, 17) 
+dimension after running correlation: (500, 3) 
+missing value ratio: 0.2886666666666666 
+common attributes taken('longitude',) 
+common attributes taken('weaptype2', 'longitude', 'eventid') 
+merged dataset dimension: (500, 17) 
+dimension after running correlation: (500, 3) 
+missing value ratio: 0.2886666666666666 
+common attributes taken('latitude', 'weaptype2', 'longitude', 'eventid') 
+merged dataset dimension: (500, 16) 
+dimension after running correlation: (500, 3) 
+missing value ratio: 0.2886666666666666 
+best output among those runs(according to missing value ratio): 
+parameters: ['longitude', 'eventid'] 
+missing value ratio: 0.17320000000000002 
+ 
+ 
+ 
+################################## 
+ 
+ 
+both initial dataset dimension: 5000 x 10 
+common attributes taken('eventid',) 
+merged dataset dimension: (500, 19) 
+dimension after running correlation: (500, 12) 
+missing value ratio: 0.08650000000000002 
+common attributes taken('eventid', 'longitude', 'nwoundte') 
+merged dataset dimension: (500, 17) 
+dimension after running correlation: (500, 0) 
+common attributes taken('eventid', 'nwoundte', 'latitude') 
+merged dataset dimension: (500, 17) 
+dimension after running correlation: (500, 0) 
+common attributes taken('eventid', 'nwoundte') 
+merged dataset dimension: (500, 18) 
+dimension after running correlation: (500, 0) 
+common attributes taken('nwoundte',) 
+best output among those runs(according to missing value ratio): 
+parameters: ['eventid'] 
+missing value ratio: 0.08650000000000002 
+ 
+ 
+ 
+################################## 
+ 
+ 
+both initial dataset dimension: 5000 x 10 
+common attributes taken('eventid', 'weaptype3', 'longitude') 
+merged dataset dimension: (500, 17) 
+dimension after running correlation: (500, 0) 
+common attributes taken('latitude', 'eventid', 'longitude') 
+merged dataset dimension: (500, 17) 
+dimension after running correlation: (500, 4) 
+missing value ratio: 0.019000000000000017 
+common attributes taken('eventid', 'weaptype3') 
+merged dataset dimension: (500, 18) 
+dimension after running correlation: (500, 0) 
+common attributes taken('longitude',) 
+common attributes taken('latitude', 'eventid', 'weaptype3', 'longitude') 
+merged dataset dimension: (500, 16) 
+dimension after running correlation: (500, 0) 
+best output among those runs(according to missing value ratio): 
+parameters: ['latitude', 'eventid', 'longitude'] 
+missing value ratio: 0.019000000000000017 
+ 
+ 
+ 
+################################## 
+ 
+ 
+both initial dataset dimension: 5000 x 10 
+common attributes taken('suicide', 'eventid') 
+merged dataset dimension: (500, 18) 
+dimension after running correlation: (500, 0) 
+common attributes taken('latitude', 'eventid') 
+merged dataset dimension: (500, 18) 
+dimension after running correlation: (500, 2) 
+missing value ratio: 0.01200000000000001 
+common attributes taken('latitude',) 
+common attributes taken('longitude', 'suicide', 'eventid') 
+merged dataset dimension: (500, 17) 
+dimension after running correlation: (500, 0) 
+common attributes taken('latitude', 'suicide') 
+best output among those runs(according to missing value ratio): 
+parameters: ['latitude', 'eventid'] 
+missing value ratio: 0.01200000000000001 
+ 
+ 
+ 
+################################## 
+ 
+ 
+both initial dataset dimension: 5000 x 10 
+common attributes taken('nkillus', 'latitude', 'longitude', 'eventid') 
+merged dataset dimension: (500, 16) 
+dimension after running correlation: (500, 3) 
+missing value ratio: 0.126 
+common attributes taken('nkillus', 'longitude') 
+common attributes taken('longitude',) 
+common attributes taken('nkillus', 'latitude', 'eventid') 
+merged dataset dimension: (500, 17) 
+dimension after running correlation: (500, 3) 
+missing value ratio: 0.126 
+common attributes taken('latitude', 'longitude') 
+best output among those runs(according to missing value ratio): 
+parameters: ['nkillus', 'latitude', 'longitude', 'eventid'] 
+missing value ratio: 0.126 
+ 
+ 
+ 
+################################## 
+ 
+ 
+both initial dataset dimension: 5000 x 10 
+common attributes taken('eventid',) 
+merged dataset dimension: (500, 19) 
+dimension after running correlation: (500, 14) 
+missing value ratio: 0.08385714285714285 
+common attributes taken('latitude', 'longitude') 
+common attributes taken('latitude',) 
+common attributes taken('eventid', 'latitude', 'longitude') 
+merged dataset dimension: (500, 17) 
+dimension after running correlation: (500, 4) 
+missing value ratio: 0.21650000000000003 
+best output among those runs(according to missing value ratio): 
+parameters: ['eventid'] 
+missing value ratio: 0.08385714285714285 
+ 
+ 
+ 
+################################## 
+ 
+ 
+both initial dataset dimension: 5000 x 10 
+common attributes taken('eventid', 'longitude') 
+merged dataset dimension: (500, 18) 
+dimension after running correlation: (500, 3) 
+missing value ratio: 0.10066666666666668 
+common attributes taken('latitude', 'longitude') 
+common attributes taken('latitude', 'eventid', 'longitude') 
+merged dataset dimension: (500, 17) 
+dimension after running correlation: (500, 2) 
+missing value ratio: 0.15100000000000002 
+common attributes taken('eventid',) 
+merged dataset dimension: (500, 19) 
+dimension after running correlation: (500, 11) 
+missing value ratio: 0.0603636363636364 
+best output among those runs(according to missing value ratio): 
+parameters: ['eventid'] 
+missing value ratio: 0.0603636363636364 
+ 
+ 
+ 
+################################## 
+ 
+ 
+both initial dataset dimension: 5000 x 10 
+common attributes taken('latitude',) 
+common attributes taken('latitude', 'longitude', 'eventid') 
+merged dataset dimension: (500, 17) 
+dimension after running correlation: (500, 4) 
+missing value ratio: 0.22250000000000003 
+common attributes taken('latitude', 'longitude', 'targsubtype1', 'eventid') 
+merged dataset dimension: (500, 16) 
+dimension after running correlation: (500, 2) 
+missing value ratio: 0.42100000000000004 
+common attributes taken('latitude', 'eventid') 
+merged dataset dimension: (500, 18) 
+dimension after running correlation: (500, 4) 
+missing value ratio: 0.22250000000000003 
+common attributes taken('targsubtype1', 'eventid') 
+merged dataset dimension: (500, 18) 
+dimension after running correlation: (500, 11) 
+missing value ratio: 0.08236363636363642 
+best output among those runs(according to missing value ratio): 
+parameters: ['targsubtype1', 'eventid'] 
+missing value ratio: 0.08236363636363642 
+ 
+ 
+ 
+################################## 
+ 
+ 
+both initial dataset dimension: 5000 x 10 
+common attributes taken('nwoundte',) 
+################################## 
+ 
+ 
+both initial dataset dimension: 5000 x 10 
+common attributes taken('guncertain1', 'eventid') 
+merged dataset dimension: (500, 16) 
+dimension after running correlation: (500, 9) 
+missing value ratio: 0.002666666666666706 
+common attributes taken('longitude', 'eventid') 
+merged dataset dimension: (500, 17) 
+dimension after running correlation: (500, 2) 
+missing value ratio: 0.0 
+common attributes taken('guncertain1', 'latitude', 'eventid') 
+merged dataset dimension: (500, 16) 
+dimension after running correlation: (500, 3) 
+missing value ratio: 0.0 
+common attributes taken('guncertain1', 'latitude') 
+common attributes taken('eventid',) 
+merged dataset dimension: (500, 17) 
+dimension after running correlation: (500, 13) 
+missing value ratio: 0.003076923076923088 
+best output among those runs(according to missing value ratio): 
+parameters: ['longitude', 'eventid'] 
+missing value ratio: 0.0 
+ 
+ 
+ 
+################################## 
+ 
+ 
+both initial dataset dimension: 5000 x 10 
+common attributes taken('eventid', 'longitude') 
+merged dataset dimension: (500, 17) 
+dimension after running correlation: (500, 3) 
+missing value ratio: 0.10866666666666669 
+common attributes taken('latitude', 'eventid', 'weapsubtype1') 
+merged dataset dimension: (500, 16) 
+dimension after running correlation: (500, 4) 
+missing value ratio: 0.08150000000000002 
+common attributes taken('latitude',) 
+common attributes taken('eventid',) 
+merged dataset dimension: (500, 17) 
+dimension after running correlation: (500, 11) 
+missing value ratio: 0.05400000000000005 
+common attributes taken('longitude',) 
+best output among those runs(according to missing value ratio): 
+parameters: ['eventid'] 
+missing value ratio: 0.05400000000000005 
+ 
+ 
+ 
+################################## 
+ 
+ 
+both initial dataset dimension: 5000 x 10 
+common attributes taken('eventid', 'longitude') 
+merged dataset dimension: (500, 17) 
+dimension after running correlation: (500, 2) 
+missing value ratio: 0.16100000000000003 
+common attributes taken('latitude',) 
+common attributes taken('latitude', 'eventid') 
+merged dataset dimension: (500, 17) 
+dimension after running correlation: (500, 4) 
+missing value ratio: 0.08050000000000002 
+common attributes taken('eventid',) 
+merged dataset dimension: (500, 17) 
+dimension after running correlation: (500, 12) 
+missing value ratio: 0.030166666666666675 
+best output among those runs(according to missing value ratio): 
+parameters: ['eventid'] 
+missing value ratio: 0.030166666666666675 
+ 
+ 
+ 
+################################## 
+ 
+ 
+both initial dataset dimension: 5000 x 10 
+common attributes taken('crit3',) 
+common attributes taken('longitude', 'crit3') 
+common attributes taken('propextent', 'crit3', 'eventid') 
+merged dataset dimension: (500, 15) 
+dimension after running correlation: (500, 1) 
+missing value ratio: 0.0 
+common attributes taken('latitude', 'propextent', 'crit3') 
+common attributes taken('latitude', 'longitude', 'propextent', 'crit3') 
+common attributes taken('longitude',) 
+best output among those runs(according to missing value ratio): 
+parameters: ['propextent', 'crit3', 'eventid'] 
+missing value ratio: 0.0 
+ 
+ 
+ 
+################################## 
+ 
+ 
+both initial dataset dimension: 5000 x 10 
+common attributes taken('guncertain1', 'latitude', 'eventid') 
+merged dataset dimension: (500, 16) 
+dimension after running correlation: (500, 4) 
+missing value ratio: 0.08650000000000002 
+common attributes taken('eventid',) 
+merged dataset dimension: (500, 16) 
+dimension after running correlation: (500, 11) 
+missing value ratio: 0.05581818181818177 
+common attributes taken('guncertain1', 'latitude', 'longitude') 
+common attributes taken('latitude', 'eventid', 'longitude') 
+merged dataset dimension: (500, 16) 
+dimension after running correlation: (500, 4) 
+missing value ratio: 0.08650000000000002 
+common attributes taken('guncertain1', 'eventid') 
+merged dataset dimension: (500, 16) 
+dimension after running correlation: (500, 9) 
+missing value ratio: 0.06644444444444442 
+best output among those runs(according to missing value ratio): 
+parameters: ['eventid'] 
+missing value ratio: 0.05581818181818177 
+ 
+ 
+ 
+################################## 
+ 
+ 
+both initial dataset dimension: 5000 x 10 
+common attributes taken('nwoundte', 'eventid') 
+merged dataset dimension: (500, 15) 
+dimension after running correlation: (500, 0) 
+common attributes taken('latitude', 'eventid', 'nkillter', 'longitude') 
+merged dataset dimension: (500, 15) 
+dimension after running correlation: (500, 1) 
+missing value ratio: 0.07599999999999996 
+common attributes taken('latitude', 'nwoundte', 'eventid') 
+merged dataset dimension: (500, 15) 
+dimension after running correlation: (500, 0) 
+common attributes taken('nwoundte', 'longitude') 
+common attributes taken('eventid', 'nkillter') 
+merged dataset dimension: (500, 15) 
+dimension after running correlation: (500, 4) 
+missing value ratio: 0.02300000000000002 
+common attributes taken('eventid', 'longitude') 
+merged dataset dimension: (500, 15) 
+dimension after running correlation: (500, 2) 
+missing value ratio: 0.19899999999999995 
+best output among those runs(according to missing value ratio): 
+parameters: ['eventid', 'nkillter'] 
+missing value ratio: 0.02300000000000002 
+ 
+ 
+ 
+################################## 
+ 
+ 
+both initial dataset dimension: 5000 x 10 
+common attributes taken('longitude', 'eventid') 
+merged dataset dimension: (500, 17) 
+dimension after running correlation: (500, 3) 
+missing value ratio: 0.10733333333333328 
+common attributes taken('latitude',) 
+common attributes taken('longitude',) 
+common attributes taken('eventid',) 
+merged dataset dimension: (500, 17) 
+dimension after running correlation: (500, 10) 
+missing value ratio: 0.05900000000000005 
+best output among those runs(according to missing value ratio): 
+parameters: ['eventid'] 
+missing value ratio: 0.05900000000000005 
+ 
+ 
+ 
+################################## 
+ 
+ 
+both initial dataset dimension: 5000 x 10 
+common attributes taken('nreleased', 'eventid', 'latitude') 
+merged dataset dimension: (500, 14) 
+dimension after running correlation: (500, 0) 
+common attributes taken('longitude', 'targtype1', 'individual') 
+common attributes taken('longitude', 'eventid', 'latitude') 
+merged dataset dimension: (500, 14) 
+dimension after running correlation: (500, 2) 
+missing value ratio: 0.15100000000000002 
+common attributes taken('latitude', 'individual') 
+common attributes taken('nreleased', 'targtype1', 'latitude', 'individual') 
+common attributes taken('nreleased', 'longitude', 'targtype1') 
+common attributes taken('longitude', 'targtype1', 'latitude', 'individual') 
+best output among those runs(according to missing value ratio): 
+parameters: ['longitude', 'eventid', 'latitude'] 
+missing value ratio: 0.15100000000000002 
+ 
+ 
+ 
+################################## 
+ 
+ 
+both initial dataset dimension: 5000 x 10 
+common attributes taken('longitude', 'imonth', 'eventid', 'natlty1') 
+merged dataset dimension: (500, 15) 
+dimension after running correlation: (500, 5) 
+missing value ratio: 0.1884 
+common attributes taken('longitude',) 
+common attributes taken('longitude', 'eventid', 'natlty1', 'latitude') 
+merged dataset dimension: (500, 15) 
+dimension after running correlation: (500, 5) 
+missing value ratio: 0.1884 
+common attributes taken('eventid', 'natlty1') 
+merged dataset dimension: (500, 15) 
+dimension after running correlation: (500, 6) 
+missing value ratio: 0.16733333333333333 
+common attributes taken('imonth', 'eventid', 'natlty1') 
+merged dataset dimension: (500, 15) 
+dimension after running correlation: (500, 6) 
+missing value ratio: 0.16733333333333333 
+common attributes taken('natlty1',) 
+best output among those runs(according to missing value ratio): 
+parameters: ['eventid', 'natlty1'] 
+missing value ratio: 0.16733333333333333 
+ 
+ 
+ 
+################################## 
+ 
+ 
+both initial dataset dimension: 5000 x 10 
+common attributes taken('weapsubtype1', 'longitude') 
+common attributes taken('eventid', 'longitude') 
+merged dataset dimension: (500, 15) 
+dimension after running correlation: (500, 4) 
+missing value ratio: 0.22950000000000004 
+common attributes taken('eventid', 'weapsubtype1', 'latitude') 
+merged dataset dimension: (500, 15) 
+dimension after running correlation: (500, 3) 
+missing value ratio: 0.30600000000000005 
+common attributes taken('related', 'longitude', 'latitude') 
+common attributes taken('related', 'weapsubtype1') 
+common attributes taken('eventid', 'related') 
+merged dataset dimension: (500, 15) 
+################################## 
+ 
+ 
+both initial dataset dimension: 5000 x 10 
+common attributes taken('longitude', 'eventid') 
+merged dataset dimension: (500, 16) 
+dimension after running correlation: (500, 2) 
+missing value ratio: 0.0 
+common attributes taken('latitude', 'longitude') 
+common attributes taken('latitude', 'longitude', 'eventid') 
+merged dataset dimension: (500, 16) 
+dimension after running correlation: (500, 1) 
+missing value ratio: 0.0 
+common attributes taken('longitude', 'nkill') 
+common attributes taken('nkill',) 
+best output among those runs(according to missing value ratio): 
+parameters: ['longitude', 'eventid'] 
+missing value ratio: 0.0 
+ 
+ 
+ 
+################################## 
+ 
+ 
+both initial dataset dimension: 5000 x 10 
+common attributes taken('latitude', 'longitude', 'individual') 
+common attributes taken('longitude', 'individual') 
+common attributes taken('nkillter',) 
+common attributes taken('latitude', 'nkillter', 'individual') 
+common attributes taken('eventid', 'longitude', 'individual') 
+merged dataset dimension: (500, 15) 
+dimension after running correlation: (500, 0) 
+common attributes taken('latitude', 'eventid', 'longitude') 
+merged dataset dimension: (500, 15) 
+dimension after running correlation: (500, 3) 
+missing value ratio: 0.02533333333333332 
+best output among those runs(according to missing value ratio): 
+parameters: ['latitude', 'eventid', 'longitude'] 
+missing value ratio: 0.02533333333333332 
+ 
+ 
+ 
+################################## 
+ 
+ 
+both initial dataset dimension: 5000 x 10 
+common attributes taken('latitude',) 
+common attributes taken('eventid',) 
+merged dataset dimension: (500, 15) 
+dimension after running correlation: (500, 7) 
+missing value ratio: 0.12485714285714289 
+common attributes taken('latitude', 'longitude', 'imonth') 
+common attributes taken('eventid', 'imonth') 
+merged dataset dimension: (500, 15) 
+dimension after running correlation: (500, 7) 
+missing value ratio: 0.12485714285714289 
+common attributes taken('related',) 
+common attributes taken('longitude', 'imonth') 
+best output among those runs(according to missing value ratio): 
+parameters: ['eventid'] 
+missing value ratio: 0.12485714285714289 
+ 
+ 
+ 
+################################## 
+ 
+ 
+both initial dataset dimension: 5000 x 10 
+common attributes taken('claim2', 'latitude', 'eventid', 'nkillus') 
+merged dataset dimension: (500, 15) 
+dimension after running correlation: (500, 0) 
+common attributes taken('latitude', 'eventid', 'nkillus') 
+merged dataset dimension: (500, 15) 
+dimension after running correlation: (500, 3) 
+missing value ratio: 0.10066666666666668 
+common attributes taken('claim2', 'latitude') 
+common attributes taken('latitude', 'eventid') 
+merged dataset dimension: (500, 15) 
+dimension after running correlation: (500, 5) 
+missing value ratio: 0.12480000000000002 
+common attributes taken('claim2', 'nkillus') 
+common attributes taken('latitude', 'eventid', 'nkillus', 'longitude') 
+merged dataset dimension: (500, 15) 
+dimension after running correlation: (500, 2) 
+missing value ratio: 0.15100000000000002 
+best output among those runs(according to missing value ratio): 
+parameters: ['latitude', 'eventid', 'nkillus'] 
+missing value ratio: 0.10066666666666668 
+ 
+ 
+ 
+################################## 
+ 
+ 
+both initial dataset dimension: 5000 x 10 
+common attributes taken('latitude', 'int_log', 'eventid') 
+merged dataset dimension: (500, 15) 
+dimension after running correlation: (500, 0) 
+common attributes taken('longitude', 'nwound', 'latitude', 'int_log') 
+common attributes taken('latitude', 'eventid') 
+merged dataset dimension: (500, 16) 
+dimension after running correlation: (500, 2) 
+missing value ratio: 0.038000000000000034 
+common attributes taken('nwound',) 
+common attributes taken('nwound', 'latitude', 'int_log') 
+common attributes taken('latitude',) 
+best output among those runs(according to missing value ratio): 
+parameters: ['latitude', 'eventid'] 
+missing value ratio: 0.038000000000000034 
+ 
+ 
+ 
+################################## 
+ 
+ 
+both initial dataset dimension: 5000 x 10 
+common attributes taken('eventid', 'property') 
+merged dataset dimension: (500, 16) 
+dimension after running correlation: (500, 7) 
+missing value ratio: 0.12485714285714289 
+common attributes taken('eventid', 'longitude') 
+merged dataset dimension: (500, 16) 
+dimension after running correlation: (500, 4) 
+missing value ratio: 0.21050000000000002 
+common attributes taken('eventid', 'latitude') 
+merged dataset dimension: (500, 16) 
+dimension after running correlation: (500, 4) 
+missing value ratio: 0.21050000000000002 
+common attributes taken('longitude',) 
+common attributes taken('longitude', 'property') 
+best output among those runs(according to missing value ratio): 
+parameters: ['eventid', 'property'] 
+missing value ratio: 0.12485714285714289 
+ 
+ 
+ 
