@@ -1,0 +1,95 @@
+<!-- here we add our contact forms -->
+{% block content %}
+
+<nav class="navbar navbar-inverse navbar-fixed-top">
+    <div class="container-fluid">
+        <div class="navbar-header">
+            <a class="navbar-brand" href="http://localhost:5000/">Crime Analyzer</a>
+        </div>
+        <ul class="nav navbar-nav navbar-right">
+            <li class="active"><a href="http://localhost:5000/location">Find Your Location</a></li>
+        </ul>
+        <ul class="nav navbar-nav navbar-right">
+            <li class="active"><a href="http://localhost:5000/upload">Upload Dataset</a></li>
+        </ul>
+    </div>
+</nav>
+<div class="contact">
+
+    <h3 style="margin-top: 70px;">Please give the following info</h3>
+    <form action="{{ url_for('get_contact') }}" method=post>
+        <div>
+            <!-- name forms -->
+            <p>
+                {{ form.country.label }} <br>
+                {{ form.country(placeholder='Please provide country name') }}
+            </p>
+            <p>
+                {{ form.region.label }}<br>
+                {{form.region(placeholder='Your Region')}}
+            </p>
+            <p>
+                {{ form.year.label }}<br>
+                {{form.year(placeholder='Year')}}
+            </p>
+            <p>
+                {{ form.latitude.label }} <br>
+                {{ form.latitude(placeholder='Your latitude') }}
+            </p>
+            <p>
+                {{ form.longitude.label }} <br>
+                {{ form.longitude(placeholder='Your longitude') }}
+            </p>
+            <!-- email forms -->
+            <p>
+                {{ form.targetType.label }} <br>
+                {{ form.targetType(placeholder='Which type of target') }}
+            </p>
+            <p>
+                {{ form.attackType.label }} <br>
+                {{ form.attackType(placeholder='Which type of attack') }}
+            </p>
+            <p>
+                {{ form.weaponType.label }} <br>
+                {{ form.weaponType(placeholder='Which type of weapon used') }}
+            </p>
+            <p>
+                {{ form.weaponSubType.label }} <br>
+                {{ form.weaponSubType(placeholder='Sub type of weapon') }}
+            </p>
+            <p>
+                {{ form.suicide.label }} <br>
+                {{ form.suicide(placeholder='Is it suicidel(Yes=1, No=0)') }}
+            </p>
+            <p>
+                {{ form.nkill.label }} <br>
+                {{ form.nkill(placeholder='Number of Murders') }}
+            </p>
+            <p>
+                {{ form.nwonded.label }}<br>
+                {{form.nwonded(placeholder='Total wonded')}}
+            </p>
+            <!-- Content of your request -->
+            <p>
+                {{ form.message.label }}<br>
+                {{ form.message(placeholder='Write your request ...') }}
+            </p>
+
+            <!-- Submit button -->
+            <p>
+                {{ form.submit }}
+            </p>
+        </div>
+    </form>
+</div>
+
+{% endblock %}
+
+
+
+<!-- add the right css file -->
+{% block styles %}
+<link rel="stylesheet" href="{{url_for('.static', filename='styles.css')}}">
+<!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+{% endblock %}

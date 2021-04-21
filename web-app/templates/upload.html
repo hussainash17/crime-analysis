@@ -1,0 +1,39 @@
+<!doctype html>
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+
+<title>Upload Dataset</title>
+<nav class="navbar navbar-inverse navbar-fixed-top">
+    <div class="container-fluid">
+        <div class="navbar-header">
+            <a class="navbar-brand" href="http://localhost:5000">Crime Analyzer</a>
+        </div>
+        <ul class="nav navbar-nav navbar-right">
+            <li class="active"><a href="http://localhost:5000/location">Find Your Location</a></li>
+        </ul>
+        <ul class="nav navbar-nav navbar-right">
+            <li class="active"><a href="http://localhost:5000/upload">Upload Dataset</a></li>
+        </ul>
+    </div>
+</nav>
+<h2 style="margin-top: 80px; margin-left: 50px;">Please upload a dataset</h2>
+<p>
+    {% with messages = get_flashed_messages() %}
+    {% if messages %}
+<ul class=flashes>
+    {% for message in messages %}
+    <li>{{ message }}</li>
+    {% endfor %}
+</ul>
+{% endif %}
+{% endwith %}
+</p>
+<form style="margin-left: 50px;" method="post" action="/" enctype="multipart/form-data">
+    <dl>
+        <p>
+            <input type="file" name="file" autocomplete="off" required>
+        </p>
+    </dl>
+    <p>
+        <input type="submit" value="Submit">
+    </p>
+</form>
